@@ -1,5 +1,6 @@
 CMPT 827 Assignment 3 Documentation
 ====
+**Note: this README file is written in the format of markdown file, to receive the best reading experience, please view it in a markdown viewer or on my [GitHub] [2].**
 
 This program implements a Quasigroup Completion Problem (QCP) instance to CNF converter. It reads in a QCP instance file and output a CNF formula file that represents the instance. 
 
@@ -95,5 +96,5 @@ The following is a list of properties:
 
 
 [1]: https://github.com/niklasso/minisat
-
+[2]: https://github.com/danteWei/CMPT-827/tree/master/Assignment%203
 
