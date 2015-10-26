@@ -70,6 +70,13 @@ def createDir():
 
 '''
 Read content from file
+
+File content format:
+order 3
+1 2 *
+* * 1
+* * 2
+
 '''
 def readFile(fileName = ""):
     data = []
