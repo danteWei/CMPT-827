@@ -81,7 +81,7 @@ order 3
 def readFile(fileName = ""):
     data = []
     if os.path.isfile(fileName) == False:
-        sys.exit("No file\"" + fileName + "\" exists!\n")
+        sys.exit("No file \"" + fileName + "\" exists!\n")
     with open(fileName, "r") as f:
         data = [[str(n) for n in line.split()] for line in f]
     return data[1:]
